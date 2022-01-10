@@ -1,28 +1,45 @@
 import * as S from './styles'
 import React from 'react'
 
+import Container from '../Container'
+import Logo from '../Logo'
+
 export type TestProps = {
   title: string
+  title2: string
   description: string
   img: string
 }
 
 const Main = ({
-  title = 'COMING SOON',
-  description = 'Stay tuned to experience the first worldwide post-tensioning platform',
-  img = '/img/background.jpg'
+  title = 'WORLDWIDE',
+  title2 = 'POST-TENSIONG PLATFORM & APP',
+  description = 'CONNECTION FOR PRESTRESSING EXPERTS',
+  img = '/img/bg.svg'
 }: TestProps) => (
   <S.Wrapper>
-    <S.Background src={img} />
-    <S.Content>
-      <S.Logo src="/img/Branco.png" alt="Logo Oncrets." />
-      <S.Title>{title}</S.Title>
-      <S.Description>{description}</S.Description>
-      {/* <S.Illustration
-      src="/img/hero-illustration.svg"
-      alt="Um desenvolvedor de frente para uma tela com código."
-    /> */}
-    </S.Content>
+    <S.Background src={img}>
+      <Container>
+        <Logo />
+
+        <S.Content>
+          <S.TextBlock>
+            <S.Title>
+              {title}
+              <br></br>
+              {title2}
+            </S.Title>
+            <S.Description>{description}</S.Description>
+            <S.ButtonWrapper></S.ButtonWrapper>
+          </S.TextBlock>
+
+          <S.Image
+            src="/img/Phones.png"
+            alt="Ilustração de um desenvolvedor em frente a um computador com várias linhas de código."
+          />
+        </S.Content>
+      </Container>
+    </S.Background>
   </S.Wrapper>
 )
 
