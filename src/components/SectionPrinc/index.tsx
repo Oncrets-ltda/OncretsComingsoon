@@ -4,32 +4,20 @@ import React from 'react'
 import Container from '../Container'
 import Logo from '../Logo'
 
-export type TestProps = {
-  title: string
-  title2: string
-  description: string
-  img: string
-}
-
-const Main = ({
-  title = 'WORLDWIDE',
-  title2 = 'POST-TENSIONG PLATFORM & APP',
-  description = 'CONNECTION FOR PRESTRESSING EXPERTS',
-  img = '/img/bg.svg'
-}: TestProps) => (
+const SectionPrinc = () => (
   <S.Wrapper>
-    <S.Background src={img}>
+    <S.Background src="/img/bg.svg">
       <Container>
         <Logo />
 
         <S.Content>
           <S.TextBlock>
             <S.Title>
-              {title}
+              WORLDWIDE
               <br></br>
-              {title2}
+              POST-TENSIONG PLATFORM & APP
             </S.Title>
-            <S.Description>{description}</S.Description>
+            <S.Description>CONNECTION FOR PRESTRESSING EXPERTS</S.Description>
             <S.ButtonWrapper></S.ButtonWrapper>
           </S.TextBlock>
 
@@ -43,4 +31,4 @@ const Main = ({
   </S.Wrapper>
 )
 
-export default Main
+export default SectionPrinc

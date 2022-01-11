@@ -23,7 +23,7 @@ export default {
   colors: {
     primary: '#006DB6',
     primaryHover: '#E20E8D',
-    secondary: '#3CD3C1',
+    secondary: '#080E22',
     mainBg: '#081221',
     boxBg: '#FAFAFA',
     texts: '#030517',

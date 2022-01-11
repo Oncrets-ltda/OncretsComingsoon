@@ -20,8 +20,6 @@ export const Background = styled.div<ImageProps>`
     background-size: cover;
     width: 100%;
     height: 100%;
-    display: block;
-    position: absolute;
   `}
 `
 
