@@ -31,7 +31,7 @@ export const Image = styled.img`
     width: min(34rem, 100%);
     ${media.greaterThan('medium')`
       margin: 0;
-      width: 60rem;
+      width: 66rem;
     `}
   `}
 `

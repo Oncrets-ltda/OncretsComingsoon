@@ -10,13 +10,13 @@ const SectionAboutProject = () => (
     <Container>
       <S.Container>
         <S.Image
-          src="/img/prints.png"
+          src="/img/prints2.png"
           alt="Ilustração de um desenvolvedor em frente a um computador com várias linhas de código."
         />
         <div>
           <Heading>What is Oncrets?</Heading>
           <S.Text>
-            <p>
+            {/* <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industrys standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -33,7 +33,7 @@ const SectionAboutProject = () => (
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
-            </p>
+            </p> */}
           </S.Text>
         </div>
       </S.Container>
