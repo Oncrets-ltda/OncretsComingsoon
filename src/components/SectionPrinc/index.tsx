@@ -15,7 +15,7 @@ const SectionPrinc = () => (
             <S.Title>
               WORLDWIDE
               <br></br>
-              POST-TENSIONG PLATFORM & APP
+              POST-TENSIONING PLATFORM & APP
             </S.Title>
             <S.Description>CONNECTION FOR PRESTRESSING EXPERTS</S.Description>
             <S.ButtonWrapper></S.ButtonWrapper>
