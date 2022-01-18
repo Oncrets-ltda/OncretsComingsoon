@@ -27,8 +27,8 @@ export const Image = styled.img`
     margin: ${theme.spacings.large} auto;
     width: min(34rem, 100%);
     ${media.greaterThan('medium')`
-      margin: 0;
-      width: 60rem;
+      margin-left: 10rem;
+      width: 40rem;
     `}
   `}
 `

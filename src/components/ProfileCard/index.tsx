@@ -31,10 +31,7 @@ const ProfileCard: React.FC<Props> = ({
   description
 }) => (
   <S.Card key={name}>
-    <S.Image
-      src={image}
-      alt="Ilustração de um desenvolvedor em frente a um computador com várias linhas de código."
-    />
+    <S.Image src={image} />
     <S.Name>{name}</S.Name>
     <S.Role>{role}</S.Role>
     <S.SocialLinks>

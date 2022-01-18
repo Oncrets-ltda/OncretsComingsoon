@@ -1,12 +1,49 @@
 import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
+
+export const Container = styled.div`
+  ${({ theme }) => css`
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: ${theme.spacings.medium};
+    ${media.greaterThan('large')`
+    grid-template-columns: 1fr 1fr;
+      padding: 0 ${theme.spacings.medium};
+    `}
+  `}
+`
+
+// export const PlayerDiv = styled.video`
+//   position: relative;
+//   padding-top: 56.25%
+// `
 
 export const Card = styled.article`
   ${({ theme }) => css`
     border-radius: ${theme.border.radius};
     background-color: ${theme.colors.white};
     padding: ${theme.spacings.medium};
-    text-align: center;
+    text-align: left;
+    margin-top: 4rem;
   `}
+`
+
+export const Header = styled.div`
+  padding: 0;
+  text-align: center;
+  ${media.greaterThan('medium')`
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      text-align: left
+    `}
+`
+
+export const Infos = styled.div`
+  margin-left: 2rem;
+  ${media.greaterThan('medium')`
+        padding-top: 4rem;
+    `}
 `
 
 export const Image = styled.img`
@@ -14,7 +51,7 @@ export const Image = styled.img`
     width: 12.5rem;
     height: 12.5rem;
     border-radius: 100%;
-    margin: auto;
+    margin: 0;
     margin-bottom: ${theme.spacings.xsmall};
   `}
 `
@@ -38,7 +75,7 @@ export const Role = styled.div`
 export const SocialLinks = styled.ul`
   ${({ theme }) => css`
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: ${theme.spacings.xsmall};
   `}
 `
@@ -62,5 +99,10 @@ export const Description = styled.div`
   ${({ theme }) => css`
     font-size: ${theme.font.sizes.xsmall};
     color: ${theme.colors.texts};
+    text-align: center;
+
+    ${media.greaterThan('medium')`
+      text-align: left;
+    `}
   `}
 `

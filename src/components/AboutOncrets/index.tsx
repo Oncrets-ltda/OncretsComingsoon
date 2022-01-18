@@ -9,31 +9,30 @@ const SectionAboutProject = () => (
   <S.Wrapper>
     <Container>
       <S.Container>
-        <S.Image
-          src="/img/prints2.png"
-          alt="Ilustração de um desenvolvedor em frente a um computador com várias linhas de código."
-        />
+        <S.Image src="/img/prints2.png" />
         <div>
-          <Heading>What is Oncrets?</Heading>
+          <Heading>WHAT IS ONCRETS?</Heading>
           <S.Text>
-            {/* <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Born of the highest management technology of prestressed
+              structure, Oncrets came with data transparency and results in
+              civil construction as its goals.
             </p>
-
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p> */}
+              Our team is composed of engineers and developers specialized in
+              post-tensioning. Our premise is to establish a worldwide
+              connection between all professionals at the field.
+            </p>
+            <p>
+              You can register your prestressing cables, control the elongation
+              values collected in real time and organize your constructions,
+              eliminating paper and pen. The objective is having no human
+              interference in the elongation measurement.
+            </p>
+            <p>
+              Oncrets PT-Manager app is integrated with Oncrets’ platform, where
+              you can register, track and control all post-tensioning steps.
+            </p>
           </S.Text>
         </div>
       </S.Container>

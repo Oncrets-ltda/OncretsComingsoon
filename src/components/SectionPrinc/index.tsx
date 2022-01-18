@@ -21,10 +21,7 @@ const SectionPrinc = () => (
             <S.ButtonWrapper></S.ButtonWrapper>
           </S.TextBlock>
 
-          <S.Image
-            src="/img/Phones.png"
-            alt="Ilustração de um desenvolvedor em frente a um computador com várias linhas de código."
-          />
+          <S.Image src="/img/Phones.png" />
         </S.Content>
       </Container>
     </S.Background>

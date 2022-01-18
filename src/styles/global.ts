@@ -28,6 +28,42 @@ const GlobalStyle = createGlobalStyle`
      url('/fonts/poppins-v15-latin-600.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'CoreSansG';
+  font-style: Bold;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''),
+     url("/fonts/CoreSansG-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'DINBold';
+  font-style: Medium;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''),
+     url("/fonts/DINBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'DINMedium';
+  font-style: Medium;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+     url("/fonts/DINMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'DIN';
+  font-style: Normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local(''),
+     url("/fonts/DIN.ttf") format("truetype");
+}
+
   * {
     margin: 0;
     padding: 0;

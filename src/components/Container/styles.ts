@@ -7,7 +7,7 @@ export const Container = styled.div`
     padding: ${theme.spacings.large} calc(${theme.grid.gutter} / 2);
     margin: 0 auto;
     ${media.greaterThan('medium')`
-      padding: ${theme.spacings.large} calc(${theme.grid.gutter} / 2);
+      padding: ${theme.spacings.medium} calc(${theme.grid.gutter} / 2);
     `}
   `}
 `

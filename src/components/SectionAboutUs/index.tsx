@@ -3,6 +3,7 @@ import React from 'react'
 import Heading from 'components/Heading'
 import Container from 'components/Container'
 import ProfileCard from 'components/ProfileCard'
+import ProfileCardPrinc from 'components/ProfileCardPrinc'
 
 import content from './content'
 import * as S from './styles'
@@ -11,8 +12,8 @@ const SectionAboutUs = () => (
   <S.Wrapper>
     <S.Background>
       <Container>
-        <Heading reverseColor>Who we are</Heading>
-
+        <Heading reverseColor>WHO WE ARE</Heading>
+        <ProfileCardPrinc />
         <S.Content>
           {content.map((profile) => (
             <ProfileCard

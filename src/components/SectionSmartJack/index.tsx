@@ -10,41 +10,26 @@ const SectionAboutProject = () => (
     <Container>
       <S.Container>
         <div>
-          <Heading reverseColor={true}>Smart Jack</Heading>
+          <Heading reverseColor={true}>SMART JACK</Heading>
           <S.Text>
-            {/* <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            <p>
+              Smart jack is a device composed by a data logger, pressure and
+              distance sensor. It is an unique and patented algorithm, which
+              brings in real time the elongation data.
             </p>
 
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              It calculates elongation values for bonded and unbonded system
+              comparing pressure and distance accurately.
             </p>
 
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              It&apos; an accessory to be attached to your post-tensioning
+              equipment with a Bluetooth connection in oncrets PT-Manager app.
             </p>
-
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p> */}
           </S.Text>
         </div>
-        <S.Image
-          src="/img/printsIphone.png"
-          alt="Ilustração de um desenvolvedor em frente a um computador com várias linhas de código."
-        />
+        <S.Image src="/img/printsIphone.png" />
       </S.Container>
     </Container>
   </S.Wrapper>
