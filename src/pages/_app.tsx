@@ -11,9 +11,9 @@ function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Oncrets</title>
         <link rel="shortcut icon" href="/img/iconOncretsAzul.png" />
-        <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <link rel="apple-touch-icon" href="/img/iconOncretsAzul.png" />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#06092B" />
+        <meta name="theme-color" content="#006DB6" />
         <meta
           name="description"
           content="Stay tuned to experience the first worldwide post-tensioning platform"

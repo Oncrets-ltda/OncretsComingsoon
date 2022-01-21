@@ -24,11 +24,11 @@ export const Container = styled.div`
 
 export const Image = styled.img`
   ${({ theme }) => css`
-    margin: ${theme.spacings.large} auto;
+    margin: ${theme.spacings.xlarge} auto;
     width: min(34rem, 100%);
     ${media.greaterThan('medium')`
       margin-left: 10rem;
-      width: 40rem;
+      width: 42rem;
     `}
   `}
 `

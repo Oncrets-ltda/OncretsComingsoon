@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactPlayer from 'react-player'
 
 import Heading from 'components/Heading'
 import Container from 'components/Container'
@@ -28,6 +29,10 @@ const SectionAboutProject = () => (
               equipment with a Bluetooth connection in oncrets PT-Manager app.
             </p>
           </S.Text>
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=0LUvJTakzSA"
+            width="100%"
+          />
         </div>
         <S.Image src="/img/printsIphone.png" />
       </S.Container>

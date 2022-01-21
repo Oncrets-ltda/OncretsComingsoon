@@ -5,7 +5,7 @@ export const Wrapper = styled.section`
   ${({ theme }) => css`
     display: flex;
     ${media.greaterThan('medium')`
-      padding: ${theme.spacings.large} 0;
+      padding: ${theme.spacings.xxsmall} 0;
     `}
   `}
 `
