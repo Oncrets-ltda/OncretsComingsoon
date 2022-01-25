@@ -25,12 +25,12 @@ const SectionAboutProject = () => (
             </p>
 
             <p>
-              It&apos; an accessory to be attached to your post-tensioning
+              It&apos;s an accessory to be attached to your post-tensioning
               equipment with a Bluetooth connection in oncrets PT-Manager app.
             </p>
           </S.Text>
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=0LUvJTakzSA"
+            url="https://www.youtube.com/watch?v=zgtAWnS1pEQ"
             width="100%"
           />
         </div>
