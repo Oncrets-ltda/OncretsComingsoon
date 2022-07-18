@@ -1,9 +1,12 @@
 import * as S from './styles'
+import Link from 'next/link'
 
 const Privacy = () => (
   <S.Wrapper>
     <h1>Privacy</h1>
-    <a href="#">PT - BR</a>
+    <Link href="/privacy-ptbr">
+      <a>PT - BR</a>
+    </Link>
     <br></br>
     <br></br>
     <h2>COOKIE POLICY</h2>
