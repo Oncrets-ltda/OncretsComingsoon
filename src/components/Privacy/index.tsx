@@ -3,6 +3,8 @@ import * as S from './styles'
 const Privacy = () => (
   <S.Wrapper>
     <h1>Privacy</h1>
+    <a href="#">PT - BR</a>
+    <br></br>
     <br></br>
     <h2>COOKIE POLICY</h2>
     <br></br>
@@ -412,6 +414,7 @@ const Privacy = () => (
       Address: ...<br></br>
       Email: ...<br></br>
     </p>
+    <br></br>
   </S.Wrapper>
 )
 
