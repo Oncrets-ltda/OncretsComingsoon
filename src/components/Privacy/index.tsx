@@ -399,25 +399,6 @@ const Privacy = () => (
       and inform you in accordance with the applicable data protection laws.
     </p>
     <br></br>
-    <h3>10. CONTACT</h3>
-    <br></br>
-    <p>
-      If you have any questions about this Privacy Policy and the Oncrets’ data
-      processing activities or if you want to exercise any of your rights under
-      GDPR, please contact Oncrets’s data protection officer and EU
-      representative:
-      <br></br>
-      <br></br>
-      Data protection officer: ...<br></br>
-      Address: ...<br></br>
-      Telephone: ...<br></br>
-      Email address: ...<br></br>
-      <br></br>
-      EU representative: ...<br></br>
-      Address: ...<br></br>
-      Email: ...<br></br>
-    </p>
-    <br></br>
   </S.Wrapper>
 )
 

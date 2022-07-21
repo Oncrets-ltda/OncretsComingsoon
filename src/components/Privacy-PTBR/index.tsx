@@ -318,8 +318,7 @@ const Privacy = () => (
       brasileira, no idioma português, sendo eleito o foro da sede da Oncrets,
       Araucária/PR, para dirimir qualquer litígio ou controvérsia envolvendo o
       presente documento, salvo ressalva específica de competência pessoal,
-      territorial ou funcional pela legislação aplicável. Identificação do
-      Encarregado de Dados Nome: ... Endereço: ... E-mail: ... Telefone: ...
+      territorial ou funcional pela legislação aplicável.
     </span>
   </S.Wrapper>
 )
