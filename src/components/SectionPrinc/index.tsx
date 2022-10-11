@@ -1,31 +1,64 @@
 import * as S from './styles'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { useRouter } from 'next/router'
 
 import Container from '../Container'
-import Logo from '../Logo'
+import Header from '../Header'
+import Button from '../Button'
+import messages from '../../translate/messages'
 
-const SectionPrinc = () => (
-  <S.Wrapper>
-    <S.Background src="/img/bg.svg">
-      <Container>
-        <Logo />
+function SectionPrinc() {
+  const router = useRouter()
+  const [locale, setLocale] = useState('pt')
 
-        <S.Content>
-          <S.TextBlock>
-            <S.Title>
-              WORLDWIDE
-              <br></br>
-              POST-TENSIONING PLATFORM & APP
-            </S.Title>
-            <S.Description>CONNECTION FOR PRESTRESSING EXPERTS</S.Description>
-            <S.ButtonWrapper></S.ButtonWrapper>
-          </S.TextBlock>
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const localeRouter = router.locale
+      setLocale(localeRouter)
+    }
+  }, [router.locale])
 
-          <S.Image src="/img/Phones.png" />
-        </S.Content>
-      </Container>
-    </S.Background>
-  </S.Wrapper>
-)
+  return (
+    <S.Wrapper>
+      <S.Background src="/img/bgNewOncrets.png">
+        <Header />
+        <Container>
+          <S.Content>
+            <S.TextBlock>
+              <S.Title>
+                <p>{messages[locale].titleFirtsLine}</p>
+
+                <p>{messages[locale].titleSecondLine}</p>
+              </S.Title>
+              <S.Description>CONNECTION FOR PRESTRESSING EXPERTS</S.Description>
+              <S.ButtonsWrapper>
+                <Button
+                  model="disabled"
+                  width="200px"
+                  onClick={() =>
+                    router.push(
+                      'https://ptmanager.oncrets.com/registration/client'
+                    )
+                  }
+                >
+                  {messages[locale].trialButton}
+                </Button>
+                <Button
+                  model="secondary"
+                  width="150px"
+                  onClick={() => router.push('https://ptmanager.oncrets.com')}
+                >
+                  {messages[locale].login}
+                </Button>
+              </S.ButtonsWrapper>
+            </S.TextBlock>
+
+            <S.Image src="/img/Phones.png" />
+          </S.Content>
+        </Container>
+      </S.Background>
+    </S.Wrapper>
+  )
+}
 
 export default SectionPrinc

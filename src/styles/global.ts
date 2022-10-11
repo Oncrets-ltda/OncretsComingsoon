@@ -81,6 +81,8 @@ const GlobalStyle = createGlobalStyle`
     }
     body {
       background-color: ${theme.colors.mainBg};
+      background-image: radial-gradient(#7b7373 1px, transparent 0);
+      background-size: 80px 100px;
       color: ${theme.colors.white};
       font-size: ${theme.font.sizes.small};
     }

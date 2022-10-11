@@ -3,7 +3,9 @@ import media from 'styled-media-query'
 
 export const Wrapper = styled.section`
   ${({ theme }) => css`
+    background-color: #080e22;
     display: flex;
+    transform: skewY(3deg);
     ${media.greaterThan('medium')`
       padding: ${theme.spacings.large} 0;
     `}
@@ -12,6 +14,7 @@ export const Wrapper = styled.section`
 
 export const Container = styled.div`
   ${({ theme }) => css`
+    transform: skewY(-3deg);
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: ${theme.spacings.medium};

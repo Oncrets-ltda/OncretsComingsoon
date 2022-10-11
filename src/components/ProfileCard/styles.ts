@@ -6,6 +6,7 @@ export const Card = styled.article`
     background-color: ${theme.colors.white};
     padding: ${theme.spacings.medium};
     text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   `}
 `
 

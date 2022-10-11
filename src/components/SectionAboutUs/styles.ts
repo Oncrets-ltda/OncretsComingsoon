@@ -2,12 +2,11 @@ import styled, { css } from 'styled-components'
 import media from 'styled-media-query'
 
 export const Wrapper = styled.section`
-  ${({ theme }) => css`
-    display: flex;
-    ${media.greaterThan('medium')`
-      padding: ${theme.spacings.xxsmall} 0;
-    `}
-  `}
+  display: flex;
+  padding-bottom: 100px;
+  ${media.greaterThan('medium')}
+  padding-bottom: 100px;
+  padding-top: 60px;
 `
 
 export const Background = styled.div`

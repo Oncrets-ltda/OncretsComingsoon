@@ -25,6 +25,7 @@ export const Card = styled.article`
     padding: ${theme.spacings.medium};
     text-align: left;
     margin-top: 4rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   `}
 `
 
