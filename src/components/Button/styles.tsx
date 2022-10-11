@@ -1,19 +1,30 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.button`
-  width: ${(props) => (props.width ? props.width : '100%')};
-  height: 50px;
-  background: transparent;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-  font-weight: 600;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // padding: 10px;
+  // border-radius: 60px;
+  // margin: 10px 0;
+  // text-transform: uppercase;
+  // font-weight: 600 !impotant;
+  // height: 40px;
 
-  // themes
-  background: ${(props) => props.model.background};
-  color: ${(props) => props.model.color};
-  border: ${(props) => props.model.border};
-  cursor: ${(props) => props.model.cursor};
+  // //variants
+  // width: ${(props) => (props.model ? props.width : '100%')};
+  // height: ${(props) => (props.height ? props.height : '40px')};
+  // align-self: ${(props) => (props.align ? props.align : 'inherit')};
+
+  // // themes
+  // background: ${(props) => props.model.background};
+  // color: ${(props) => props.model.color};
+  // border: ${(props) => props.model.border};
+  // cursor: ${(props) => props.model.cursor};
+
+  // &:hover {
+  //   background: ${(props) => props.model.hoverBg};
+  //   color: ${(props) => props.model.hoverColor};
+  //   border: ${(props) => props.model.hoverBorder};
+  // }
 `
