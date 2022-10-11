@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { ButtonProps } from './index'
 
-export const Wrapper = styled.div<ButtonProps>`
+export const Wrapper = styled.button<ButtonProps>`
   width: ${(props) => (props.width ? props.width : '100%')};
   height: 50px;
   background: transparent;

@@ -1,7 +1,7 @@
 import { Wrapper } from './styles'
 import { ReactNode, ButtonHTMLAttributes } from 'react'
 
-export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   width?: string
   height?: string
   children: string | ReactNode
@@ -53,7 +53,7 @@ export default function Button({
   }
 
   return (
-    <Wrapper type="submit" model={models[model]} {...rest}>
+    <Wrapper type="button" model={models[model]} {...rest}>
       {children}
     </Wrapper>
   )
