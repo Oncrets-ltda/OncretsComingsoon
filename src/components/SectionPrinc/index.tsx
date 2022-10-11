@@ -33,8 +33,9 @@ function SectionPrinc() {
               <S.Description>CONNECTION FOR PRESTRESSING EXPERTS</S.Description>
               <S.ButtonsWrapper>
                 <Button
-                  model="disabled"
+                  model="secondary"
                   width="200px"
+                  height="50px"
                   onClick={() =>
                     router.push(
                       'https://ptmanager.oncrets.com/registration/client'
@@ -44,8 +45,9 @@ function SectionPrinc() {
                   {messages[locale].trialButton}
                 </Button>
                 <Button
-                  model="secondary"
+                  model="primary"
                   width="150px"
+                  height="50px"
                   onClick={() => router.push('https://ptmanager.oncrets.com')}
                 >
                   {messages[locale].login}
