@@ -1,7 +1,6 @@
 import styled from 'styled-components'
-import { ButtonProps } from './index'
 
-export const Wrapper = styled.button<ButtonProps>`
+export const Wrapper = styled.button<HTMLButtonElement>`
   width: ${(props) => (props.width ? props.width : '100%')};
   height: 50px;
   background: transparent;
@@ -10,7 +9,7 @@ export const Wrapper = styled.button<ButtonProps>`
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 600;
 
   // themes
   background: ${(props) => props.model.background};
