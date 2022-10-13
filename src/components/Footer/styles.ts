@@ -7,7 +7,6 @@ interface ImageProps {
 
 export const Wrapper = styled.header`
   background-color: #080e22;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   padding: 50px 20px 10px 20px;
@@ -31,7 +30,6 @@ export const Contacts = styled.div`
 
 export const Email = styled.div`
   width: 100%;
-  border: 1px solid green;
 `
 
 export const EmailTitle = styled.h2`

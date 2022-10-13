@@ -42,6 +42,7 @@ export const TextBlock = styled.div`
     max-width: 32rem;
     margin: auto;
     ${media.greaterThan('medium')`
+      max-width: 70rem;
       margin: initial;
       padding-right: ${theme.spacings.medium};
     `}
