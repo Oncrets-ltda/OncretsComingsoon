@@ -23,7 +23,7 @@ function Header() {
   return (
     <S.Wrapper>
       <S.Content>
-        <S.Logo src="/img/logoOncretsAzulePreto.png" />
+        <S.Logo src="/img/LogoOncretsAzulePreto.png" />
         <S.Buttons>
           {locale === 'pt' ? (
             <Link href={'https://oncrets.com/en'}>
