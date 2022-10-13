@@ -28,3 +28,10 @@ export const Buttons = styled.div`
   justify-content: space-between;
   align-items: center;
 `
+
+export const Logo = styled.img`
+  width: 22rem;
+  ${media.greaterThan('medium')`
+    width: 18rem;
+  `}
+`

@@ -6,7 +6,6 @@ import Image from 'next/image'
 import usaIcon from '../../../public/img/united-states-of-america.png'
 import braIcon from '../../../public/img/brazil.png'
 
-import Logo from '../Logo'
 import Button from '../Button'
 import messages from '../../translate/messages'
 
@@ -24,7 +23,7 @@ function Header() {
   return (
     <S.Wrapper>
       <S.Content>
-        <Logo />
+        <S.Logo src="/img/logoOncretsAzulePreto.png" />
         <S.Buttons>
           {locale === 'pt' ? (
             <Link href={'https://oncrets.com/en'}>
