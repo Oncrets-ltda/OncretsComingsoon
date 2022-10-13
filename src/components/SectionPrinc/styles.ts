@@ -23,7 +23,6 @@ export const Background = styled.div<ImageProps>`
   `}
 
   ${media.lessThan('medium')`
-    border: 1px solid green;
     height: 100rem;
   `}
 `
