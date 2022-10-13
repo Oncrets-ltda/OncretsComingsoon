@@ -34,25 +34,13 @@ function Footer() {
             <S.EmailTitle>{messages[locale].socialMedia}</S.EmailTitle>
             <S.EmailContent>
               <a href="https://instagram.com/oncrets.pt?igshid=YmMyMTA2M2Y=">
-                <S.Image
-                  src="/img/instagram(1).png"
-                  width={'25px'}
-                  color={'white'}
-                />
+                <S.Icon src="/img/instagram(1).png" />
               </a>
               <a href="https://www.linkedin.com/company/oncrets/">
-                <S.Image
-                  src="/img/linkedin.png"
-                  width={'25px'}
-                  color={'white'}
-                />
+                <S.Icon src="/img/linkedin.png" />
               </a>
               <a href="https://www.youtube.com/channel/UCNcqo0LM_xNbAOCP9aGJKIw">
-                <S.Image
-                  src="/img/youtube.png"
-                  width={'25px'}
-                  color={'white'}
-                />
+                <S.Icon src="/img/youtube.png" />
               </a>
             </S.EmailContent>
           </div>

@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 import media from 'styled-media-query'
 
+interface ImageProps {
+  width?: string
+}
+
 export const Wrapper = styled.header`
   background-color: #080e22;
   border: 1px solid black;
@@ -62,11 +66,16 @@ export const PhoneContent = styled.p`
   margin-top: 5px;
 `
 
-export const Image = styled.img`
+export const Icon = styled.img<ImageProps>`
   cursor: pointer;
   width: min(22rem, 100%);
   color: white;
-  ${media.greaterThan('medium')`
-     width: ${(props) => (props.width ? props.width : '160px')}
-    `}
+  width: 25px;
+`
+
+export const Image = styled.img<ImageProps>`
+  cursor: pointer;
+  width: min(22rem, 100%);
+  color: white;
+  width: 160px;
 `
