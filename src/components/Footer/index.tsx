@@ -27,7 +27,8 @@ function Footer() {
           <div>
             <S.EmailTitle>{messages[locale].email}</S.EmailTitle>
             <S.EmailContent>{messages[locale].emailContent}</S.EmailContent>
-            <S.PhoneContent>+55 41 8878-1787</S.PhoneContent>
+            <S.PhoneContent>BR: +55 41 98878-1787</S.PhoneContent>
+            <S.PhoneContent>USA: +1 786 788 7785</S.PhoneContent>
           </div>
 
           <div style={{ marginLeft: '50px' }}>

@@ -27,11 +27,25 @@ export const Buttons = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  ${media.lessThan('medium')`
+    flex-direction: column-reverse;
+  `}
+`
+
+export const LogoDark = styled.img`
+  width: 22rem;
+  ${media.greaterThan('medium')`
+    width: 18rem;
+  `}
+  ${media.lessThan('medium')`
+    display: none;
+  `}
 `
 
 export const Logo = styled.img`
   width: 22rem;
   ${media.greaterThan('medium')`
     width: 18rem;
+    display: none;
   `}
 `

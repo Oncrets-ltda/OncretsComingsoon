@@ -21,12 +21,16 @@ export const Background = styled.div<ImageProps>`
     width: 100%;
     height: 100%;
   `}
+
+  ${media.lessThan('medium')`
+    border: 1px solid green;
+    height: 100rem;
+  `}
 `
 
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 4.6rem auto 0;
   ${media.greaterThan('medium')`
     flex-direction: row;
     align-items: center;
