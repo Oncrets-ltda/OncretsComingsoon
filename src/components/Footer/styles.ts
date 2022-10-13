@@ -7,15 +7,19 @@ interface ImageProps {
 
 export const Wrapper = styled.header`
   background-color: #080e22;
-  border: 1px solid black;
-  padding-left: 85px;
-  padding-right: 85px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  border: 1px solid green;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 50px 20px 10px 20px;
+
   ${media.greaterThan('medium')`
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   `}
 `
 

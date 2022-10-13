@@ -39,7 +39,7 @@ export const TextBlock = styled.div`
   ${({ theme }) => css`
     display: flex;
     flex-direction: column;
-    max-width: 70rem;
+    max-width: 32rem;
     margin: auto;
     ${media.greaterThan('medium')`
       margin: initial;
@@ -55,6 +55,7 @@ export const Title = styled.h1`
     font-weight: 900;
     ${media.lessThan('medium')`
       font-size: min(${theme.font.sizes.large});
+      color: white;
     `}
   `}
 `
@@ -77,6 +78,11 @@ export const ButtonsWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   width: 70%;
+
+  ${media.lessThan('medium')`
+    justify-content: center;
+    width: 100%;
+  `}
 `
 
 export const Image = styled.img`

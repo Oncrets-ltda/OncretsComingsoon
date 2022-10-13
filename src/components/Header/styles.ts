@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const Wrapper = styled.div`
   max-width: 100%;
@@ -12,9 +13,12 @@ export const Wrapper = styled.div`
 export const Content = styled.div`
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  ${media.greaterThan('medium')`
+    flex-direction: row;
+  `}
 `
 
 export const Buttons = styled.div`

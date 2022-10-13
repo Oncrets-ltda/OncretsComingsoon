@@ -4,7 +4,6 @@ import media from 'styled-media-query'
 export const Wrapper = styled.section`
   display: flex;
   padding-bottom: 100px;
-  ${media.greaterThan('medium')}
   padding-bottom: 100px;
   padding-top: 60px;
 `
