@@ -73,7 +73,7 @@ export default {
       'Dr. Thomas Kang is an inventor of Smart Jack of Oncrets and an owner of the patent. He is a Professor at Seoul National University, having previously served as an Assistant Professor at the University of Oklahoma and Adjunct Professor at the University of Illinois at Urbana-Champaign. He received his PhD from the University of California at Los Angeles (UCLA), and his BS from Seoul National University. Dr. Kang is also a PTI Fellow and an ACI Fellow, as well as a member of the EU Academy of Sciences and the National Academy of Engineering of Korea.',
 
     // FOOTER
-    footerFirstSectionTitle: 'GET IN TOUTCH',
+    footerFirstSectionTitle: 'GET IN TOUCH',
     email: 'E-MAIL',
     emailContent: 'contact@oncrets.com',
     socialMedia: 'SOCIAL MEDIA',
