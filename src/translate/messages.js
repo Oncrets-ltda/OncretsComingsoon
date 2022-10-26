@@ -11,11 +11,11 @@ export default {
     aboutOncretsFirstSection:
       'Nascida da mais alta tecnologia de estruturas protendidas, a Oncrets vem com transparência de dados e resultados na construção civil como seus objetivos.',
     aboutOncretsSecondSection:
-      'Nosso time é composto por engenheiros e desenvolvedores especializados em protensão. Nossa premissa é estabelecer uma conexão mundial entre todos os profissionais do campo.',
+      'Nosso time é composto por engenheiros e desenvolvedores especializados em protensão. Nossa premissa é estabelecer uma conexão mundial entre todos os profissionais da área.',
     aboutOncretsThirdSection:
-      'Você consegue registrar seus cabos protendidos, controlar os valores dos alongamentos em tempo real e organizar suas obras, eliminado papel e caneta. O objetivo é não ter interferência humana no processo de medição de alongamentos.',
+      'Você consegue registrar seus cabos protendidos, controlar os valores dos alongamentos em tempo real e organizar suas obras, eliminado papel e caneta. O futuro é não ter interferência humana no processo de medição de alongamentos.',
     aboutOncretsFourthSection:
-      'O app Oncrets PT-Manager é integrado com a plataforma WEB, onde você pode registrar, rastrear e controlar todos as etapas de protensão.',
+      'O app Oncrets PT-Manager é integrado com a plataforma WEB. Você pode registrar, rastrear e controlar todas as etapas de protensão.',
 
     // ABOUT SMART JACK
     smartJackTitle: 'SMART JACK',
